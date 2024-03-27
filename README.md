@@ -1,27 +1,30 @@
-# fcheck
+# chdfile
 
-***this script checks for duplicate files in a specific directory.***
+## Description
 
-### Note
+chdfile is a tool written in python that helps to check for duplicate files in a directory
+it achieves this by using the file's hash and displays the results of duplicates files on the
+standard output
 
-- *Run script with python3*
+## Usage
 
-        python3 fcheck.py -d [path directory with files]
+* give execution permissions to the script
 
-### or
+```bash
+ chmod 750 chdfile.py
+ ```
 
-- *Give permission of execution*
+* display the help menu
 
-        chmod u+x fcheck.py
+```bash
+ ./chdfile.py -h
+```
 
-- *Run script*
+## Examples
 
-        ./fcheck.py -d [path directory with files]
+```bash
+ ./chdfile.py -d /path/to/the/directory
+```
 
-- *for more help use*
-
-        ./fcheck.py --help
-
-### Sopported
+### Supported
 ![support](https://shields.io/badge/Supported%20on-Debian%20Based%20System%20and%20Termux-blue.svg?style=plastic)
-
